@@ -1,3 +1,6 @@
+// import Swiper from 'swiper/swiper-bundle.mjs';
+// import 'swiper/swiper-bundle.css';
+
 // Navbar 
 const menuEl = document.querySelector('.menu');
 const navbarEl = document.querySelector('.navbar');
@@ -43,3 +46,25 @@ videoEl.addEventListener ('timeupdate', () => {
 })
 
 // End Of Section 2
+
+// Section pricing cards
+
+
+var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    },
+});
+
+
+
+
+// End Of Section pricing cards
