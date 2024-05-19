@@ -302,3 +302,123 @@ html {
     transition: all .5s;
 }
 /* End Of Section 1 */
+
+
+/* Section 2 */
+
+.section-2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #888;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 5rem;
+}
+
+.section-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10rem;
+    color: #222;
+    font-weight: 300;
+    margin-right: 4rem;
+}
+
+.section-heading-line {
+    width: 15rem;
+    height: .2px;
+    background-color: #111;
+}
+
+
+.video-wrapper {
+    width: 70rem;
+    height: 40rem;
+    position: absolute;
+    top: 2rem;
+    right: 15rem;
+    box-shadow: 2rem 2rem 5rem rgba(0,0,0,0.7);
+    padding-bottom: 2rem;
+}
+
+.video-bar-wrapper {
+    width: 100%;
+    height: .8rem;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-bar {
+    height: 100%;
+    width: 20%;
+    background-color: #d30819;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .3;
+} 
+
+.controls {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    bottom: 0;
+    /* height: 2rem; */
+}
+
+.buttons {
+    padding: 2rem 1rem 1rem 1rem;
+}  
+
+.buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons i {
+    font-size: 2.8rem; 
+    color: #fff;
+}
+
+.section-2-paragraphy {
+    width: 70rem;
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    bottom: 2rem;
+    right: 15rem;
+    font-size: 1.6rem;
+    color: #111;
+    font-weight: 400;
+    border-top: .3rem double #aaa;
+    border-bottom: .3rem double #aaa;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: .3rem .3rem 1rem rgba(0,0,0,0.7);
+    line-height: 1.5;
+} 
+
+
+.fa-quote-left {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    align-self: flex-start;
+}
+
+.fa-quote-right {
+    font-size: 5rem;
+    margin-top: 2rem;
+    align-self: flex-end;
+}
+
+
+
+/* End Of Section 2 */
