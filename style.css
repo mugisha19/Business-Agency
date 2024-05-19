@@ -748,3 +748,209 @@
     }
 
     /* end of footer */
+
+    /* Responsive */
+
+    @media(max-width: 1700px) {
+        .video-wrapper {
+            width: 70rem;
+            height: 40rem;
+            right: 10rem;
+        }
+
+        .section-2-paragraphy {
+            width: 70rem;
+            right: 10rem;
+        }
+
+        .section-3.line-pricing {
+            margin-right: 3rem;
+        }
+    }
+
+
+    @media(max-width: 1450px) {
+        html {
+            font-size: 50%;
+        }
+        .video-wrapper {
+            width: 60rem;
+            height: 35rem;
+            right: 10rem;
+        }
+
+        .section-2-paragraphy {
+            width: 60rem;
+            right: 10rem;
+        }
+        .line-pricing {
+            display: flex;
+        }
+        .contact-line {
+            display: none;
+        }
+    }
+
+    @media(max-width: 1035px) {
+        html {
+            font-size: 45%;
+        }
+        .section-heading-line {
+            display: none;
+        }
+
+        .banner-heading span {
+            font-size: 10rem;
+        }
+
+        .banner-paragraphy {
+            width: 50rem;
+            font-size: 3rem;
+        }
+
+        .section-2,
+        .section-3,
+        .section-4 {
+            flex-direction: column;
+        }
+
+
+        .video-wrapper {
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            
+        }
+        .section-2-paragraphy {
+            top: 40%;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 0;
+            border: none;
+        }
+        .pricing-card {
+            top: 40%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .section-3 {
+            height: auto;
+            padding: 5rem 0 10rem 0;
+        }
+
+        .section-3 .section-heading {
+            margin-bottom: 4rem;
+        }
+
+        .swiper-container {
+            width: 100% !important;
+        }
+
+
+        .section-4 {
+            gap: 10rem;
+        }
+
+        .contact-wrapper {
+            gap: 10rem;
+        }
+    }
+
+    @media(max-width: 800px) {
+        html {
+            font-size: 40%;
+        }
+        .section-2-paragraphy {
+            top: 60%;
+            
+        }
+
+        .contact-form {
+            width: 50rem;
+        }
+
+        .contact-wrapper {
+            gap: 5rem;
+        }
+
+        
+    }
+
+    @media(max-width: 584px) {
+        html {
+            font-size: 35%;
+        }
+
+        .footer {
+            padding: 0 5rem;
+        }
+
+        .footer-nav a {
+            font-size: 1.2rem;
+        }
+        .copyright-paragraphy {
+            font-size: 1.2rem;
+        }
+
+        .contact-form {
+            width: 30rem;
+        }
+        .contact-details {
+            width: 40rem;
+            gap: 1.5rem;
+        }
+
+        .phone h3 {
+            font-family: 'Poppins',sans-serif;
+            font-size: 5rem;
+        }
+
+        .phone p {
+            font-family: 'Poppins',sans-serif;
+            font-size: 2rem;
+        }
+        .address h3 {
+            font-family: 'Poppins',sans-serif;
+            font-size: 5rem;
+        }
+
+        .address p {
+            font-family: 'Poppins',sans-serif;
+            font-size: 2rem;
+        }
+        .email h3 {
+            font-family: 'Poppins',sans-serif;
+            font-size: 5rem;
+        }
+
+        .email p {
+            font-family: 'Poppins',sans-serif;
+            font-size: 2rem;
+        }
+
+        .section-2 {
+            padding: 0 5rem;
+            height: 70vh;
+        }
+
+        .video-wrapper {
+            width: 40rem;
+            height: 20rem;
+            right: 10rem;
+        }
+
+        .section-2-paragraphy {
+            width: 40rem;
+            right: 10rem;
+            
+        }
+
+        .contact-wrapper h1 {
+            font-family: 'Poppins',sans-serif;
+        }
+        .banner-paragraphy {
+            font-family: 'Poppins',sans-serif;
+        }
+    }
+    /* End Of Responsive */
